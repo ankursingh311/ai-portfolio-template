@@ -6,8 +6,7 @@ interface Props {
 
 export default function ExpertiseMatrix({ content }: Props) {
   return (
-    <section className="px-6 sm:px-10 py-16 bg-bg-alt border-b border-grid">
-      <div className="max-w-5xl mx-auto">
+    <section className="px-6 sm:px-10 lg:px-16 py-16 bg-bg-alt border-b border-grid">
       <p className="text-xs tracking-widest text-faint uppercase font-body mb-2">
         {content.sectionEyebrow}
       </p>
@@ -33,7 +32,6 @@ export default function ExpertiseMatrix({ content }: Props) {
             </ul>
           </div>
         ))}
-      </div>
       </div>
     </section>
   );

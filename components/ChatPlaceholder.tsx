@@ -4,10 +4,10 @@ export default function ChatPlaceholder() {
   return (
     <section
       id="chat"
-      className="px-6 sm:px-10 py-16 bg-bg-alt border-y border-grid"
+      className="px-6 sm:px-10 lg:px-16 py-16 bg-bg-alt border-y border-grid"
       aria-label="Talk to Ankur"
     >
-      <div className="max-w-3xl mx-auto">
+      <div className="max-w-2xl">
         <p className="text-xs tracking-widest text-faint uppercase mb-3 font-body">
           AI · Live conversation
         </p>

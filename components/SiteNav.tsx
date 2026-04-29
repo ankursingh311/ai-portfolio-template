@@ -1,7 +1,6 @@
 export default function SiteNav() {
   return (
-    <nav className="px-6 sm:px-10 pt-6 pb-0">
-      <div className="max-w-5xl mx-auto flex justify-between items-center">
+    <nav className="px-6 sm:px-10 lg:px-16 pt-6 pb-0 flex justify-between items-center">
       <span
         className="font-display font-bold text-navy text-sm tracking-tight"
         aria-label="Ankur Singh"
@@ -21,7 +20,6 @@ export default function SiteNav() {
         >
           Contact →
         </a>
-      </div>
       </div>
     </nav>
   );

@@ -6,8 +6,7 @@ interface Props {
 
 export default function HeroSection({ content }: Props) {
   return (
-    <section className="px-6 sm:px-10 pt-16 pb-20">
-      <div className="max-w-5xl mx-auto">
+    <section className="px-6 sm:px-10 lg:px-16 pt-16 pb-20">
       <p className="text-xs tracking-widest text-faint uppercase mb-4 font-body">
         {content.eyebrow}
       </p>
@@ -36,7 +35,6 @@ export default function HeroSection({ content }: Props) {
         >
           ↓ {content.ctaSecondary}
         </a>
-      </div>
       </div>
     </section>
   );
