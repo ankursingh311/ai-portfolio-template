@@ -47,5 +47,19 @@
     "metric": "60%",
     "impact": "Manual effort eliminated",
     "detail": "Google Apps Script automation on the shop floor. Wrote the code, trained the team, watched the repetitive work disappear. 1,000+ users affected."
+  },
+  {
+    "org": "Aarti Industries",
+    "period": "2019–2021",
+    "metric": "27%",
+    "impact": "Faster permit approvals",
+    "detail": "Led an 8-member team to redesign the plant permit system. Cut approval time, removed the bottleneck, and made safety compliance faster than the old paper process."
+  },
+  {
+    "org": "Arohi Elevators",
+    "period": "2021–2022",
+    "metric": "20%",
+    "impact": "Less breakdown & handover time",
+    "detail": "Formalised 20+ installation and maintenance SOPs across 4 capital projects. When the documentation is right, the execution follows."
   }
 ]
