@@ -11,7 +11,7 @@ export default function AboutPage() {
   return (
     <main className="bg-bg min-h-screen">
       <SiteNav />
-      <article className="px-10 py-16 max-w-2xl">
+      <article className="px-6 sm:px-10 py-16 max-w-2xl mx-auto">
         <p className="text-xs tracking-widest text-faint uppercase font-body mb-4">
           About
         </p>

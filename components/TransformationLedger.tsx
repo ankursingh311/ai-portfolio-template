@@ -7,7 +7,8 @@ interface Props {
 
 export default function TransformationLedger({ entries }: Props) {
   return (
-    <section id="work" className="px-10 py-16 border-b border-grid">
+    <section id="work" className="px-6 sm:px-10 py-16 border-b border-grid">
+      <div className="max-w-5xl mx-auto">
       <p className="text-xs tracking-widest text-faint uppercase font-body mb-2">
         The work
       </p>
@@ -28,6 +29,7 @@ export default function TransformationLedger({ entries }: Props) {
             <LedgerCard entry={entry} />
           </div>
         ))}
+      </div>
       </div>
     </section>
   );

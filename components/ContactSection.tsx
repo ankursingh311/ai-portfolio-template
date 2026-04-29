@@ -6,7 +6,8 @@ interface Props {
 
 export default function ContactSection({ content }: Props) {
   return (
-    <section id="contact" className="px-10 py-16 bg-navy">
+    <section id="contact" className="px-6 sm:px-10 py-16 bg-navy">
+      <div className="max-w-5xl mx-auto">
       <p className="text-xs tracking-widest text-terra uppercase font-body mb-4">
         {content.eyebrow}
       </p>
@@ -43,6 +44,7 @@ export default function ContactSection({ content }: Props) {
       <p className="text-xs text-[#4a6070] font-body mt-6 leading-relaxed">
         {content.location}
       </p>
+      </div>
     </section>
   );
 }

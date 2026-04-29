@@ -9,14 +9,14 @@
   --color-terra: #C75C4C;
   --color-terra-soft: #D97B6F;
   --color-text: #1F2937;
-  --color-text-muted: #6B6560;
-  --color-text-faint: #9A9590;
+  --color-muted: #6B6560;
+  --color-faint: #9A9590;
   --color-grid: #E5E7EB;
   --color-white: #FFFFFF;
 
-  /* Typography */
-  --font-display: "Playfair Display", Georgia, serif;
-  --font-body: "Manrope", system-ui, sans-serif;
+  /* Typography — chain to next/font CSS variables */
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-manrope), system-ui, sans-serif;
 
   /* Spacing scale (8px base) */
   --spacing-section: 4rem;
