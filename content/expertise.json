@@ -1,0 +1,46 @@
+{
+  "sectionEyebrow": "How I work",
+  "sectionHeading": "The toolkit",
+  "columns": [
+    {
+      "title": "Strategy",
+      "skills": [
+        "Operating model design",
+        "Commercial performance",
+        "Revenue intelligence",
+        "AOP & planning",
+        "Stakeholder alignment"
+      ]
+    },
+    {
+      "title": "Analytics",
+      "skills": [
+        "BI & dashboard strategy",
+        "Root cause analysis",
+        "KPI design",
+        "Tableau · Power BI",
+        "Source-segment validation"
+      ]
+    },
+    {
+      "title": "AI & Systems",
+      "skills": [
+        "AI-enabled workflows",
+        "Salesforce & Agentforce",
+        "Prompt engineering",
+        "Google Apps Script",
+        "AI-for-BI integration"
+      ]
+    },
+    {
+      "title": "Operations",
+      "skills": [
+        "Process redesign",
+        "SOP development",
+        "Cross-functional execution",
+        "Program management",
+        "Workflow automation"
+      ]
+    }
+  ]
+}

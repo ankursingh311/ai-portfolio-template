@@ -1,0 +1,44 @@
+[
+  {
+    "org": "Lemon Tree Hotels",
+    "period": "2025–present",
+    "metric": "207",
+    "impact": "Tableau licenses governed",
+    "detail": "Built the BI operating model from scratch. 10+ dashboards across PACE, ROB, and sales productivity. Gave revenue stakeholders recurring decision support — not one-off reports."
+  },
+  {
+    "org": "Lemon Tree Hotels",
+    "period": "2025–present",
+    "metric": "100+",
+    "impact": "Hotels in AOP exercise",
+    "detail": "Co-led the FY2026–27 annual operating plan. Data migration, source-segment validation, GL code alignment. Planning timelines stayed on track."
+  },
+  {
+    "org": "Accordion",
+    "period": "2024–2025",
+    "metric": "$5M+",
+    "impact": "SKU profitability unlocked",
+    "detail": "Cost allocation framework for a contract manufacturer. For the first time, leadership could see which SKUs actually made money."
+  },
+  {
+    "org": "Accordion",
+    "period": "2024–2025",
+    "metric": "60hrs",
+    "impact": "Saved per month",
+    "detail": "Power BI dashboard with cross-functional teams. Automated what used to be a manual monthly ritual. The team spent that time on analysis instead."
+  },
+  {
+    "org": "Accordion",
+    "period": "2024–2025",
+    "metric": "25%",
+    "impact": "Faster month-end close",
+    "detail": "Streamlined financial reporting for an FMCG client. Less time closing the books meant more time understanding what the numbers said."
+  },
+  {
+    "org": "Aarti Industries",
+    "period": "2019–2021",
+    "metric": "60%",
+    "impact": "Manual effort eliminated",
+    "detail": "Google Apps Script automation on the shop floor. Wrote the code, trained the team, watched the repetitive work disappear. 1,000+ users affected."
+  }
+]
