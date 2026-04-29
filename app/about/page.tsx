@@ -5,7 +5,7 @@ import contactData from "@/content/contact.json";
 export const metadata: Metadata = {
   title: "About — Ankur Singh",
   description:
-    "Ankur Singh is a strategy and AI transformation leader. IIT Gandhinagar (Chemical Engineering) and IIM Bangalore (MBA). 6+ years transforming organizations through data, process, and AI.",
+    "Ankur Singh is a strategy and AI transformation leader. IIT Gandhinagar (Chemical Engineering) and IIM Bangalore (MBA). Manufacturing to consulting to hospitality — turning good ideas into systems that work.",
 };
 
 export default function AboutPage() {

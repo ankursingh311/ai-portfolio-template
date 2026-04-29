@@ -15,8 +15,7 @@ export default function TransformationLedger({ entries }: Props) {
         What changes when Ankur&apos;s involved
       </h2>
       <p className="text-sm text-muted font-body mb-10 max-w-xl leading-relaxed">
-        Six years. Three organizations. Every engagement ends with something
-        that works better than it did before — and a number to prove it.
+        Manufacturing. Consulting. Hospitality. One throughline: turn good ideas into systems that actually work.
       </p>
 
       <div
