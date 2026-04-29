@@ -8,14 +8,14 @@ export default function SiteNav() {
         AS
       </span>
       <div className="flex gap-6 items-center">
-        <a href="#work" className="text-xs text-muted hover:text-text transition-colors">
+        <a href="/#work" className="text-xs text-muted hover:text-text transition-colors">
           Work
         </a>
         <a href="/about" className="text-xs text-muted hover:text-text transition-colors">
           About
         </a>
         <a
-          href="#contact"
+          href="/#contact"
           className="text-xs text-terra font-semibold hover:text-terra-soft transition-colors"
         >
           Contact →
