@@ -6,40 +6,40 @@
       "title": "Strategy",
       "skills": [
         "Operating model design",
-        "Commercial performance",
-        "Revenue intelligence",
-        "AOP & planning",
-        "Stakeholder alignment"
-      ]
-    },
-    {
-      "title": "Analytics",
-      "skills": [
-        "BI & dashboard strategy",
-        "Root cause analysis",
-        "KPI design",
-        "Tableau · Power BI",
-        "Source-segment validation"
-      ]
-    },
-    {
-      "title": "AI & Systems",
-      "skills": [
-        "AI-enabled workflows",
-        "Salesforce & Agentforce",
-        "Prompt engineering",
-        "Google Apps Script",
-        "AI-for-BI integration"
+        "Revenue performance management",
+        "C-suite alignment",
+        "Annual operating plan (AOP)",
+        "Revenue intelligence"
       ]
     },
     {
       "title": "Operations",
       "skills": [
-        "Process redesign",
-        "SOP development",
+        "Business process redesign",
         "Cross-functional execution",
         "Program management",
-        "Workflow automation"
+        "SOP & governance design",
+        "Operational automation"
+      ]
+    },
+    {
+      "title": "Analytics",
+      "skills": [
+        "BI strategy & deployment",
+        "KPI architecture",
+        "Root cause & variance analysis",
+        "Tableau · Power BI",
+        "Data integrity validation"
+      ]
+    },
+    {
+      "title": "Systems & AI",
+      "skills": [
+        "AI workflow transformation",
+        "Salesforce & Agentforce",
+        "AI + BI integration",
+        "Prompt engineering",
+        "Google Apps Script"
       ]
     }
   ]

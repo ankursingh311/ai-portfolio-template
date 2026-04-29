@@ -4,6 +4,8 @@
   /* Colors */
   --color-bg: #F8F5F1;
   --color-bg-alt: #FAFAF8;
+  --color-bg-deep: #F2EDE7;
+  --color-bg-chat: #F0EBE4;
   --color-navy: #0A2540;
   --color-navy-light: #1E3A8A;
   --color-terra: #C75C4C;
@@ -13,6 +15,8 @@
   --color-faint: #9A9590;
   --color-grid: #E5E7EB;
   --color-white: #FFFFFF;
+  --color-on-dark: #a0b0c0;
+  --color-on-dark-faint: #4a6070;
 
   /* Typography — chain to next/font CSS variables */
   --font-display: var(--font-playfair), Georgia, serif;

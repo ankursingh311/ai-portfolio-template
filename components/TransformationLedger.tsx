@@ -7,7 +7,7 @@ interface Props {
 
 export default function TransformationLedger({ entries }: Props) {
   return (
-    <section id="work" className="px-6 sm:px-10 lg:px-16 py-16 border-b border-grid">
+    <section id="work" className="px-6 sm:px-10 lg:px-16 py-16 bg-bg">
       <p className="text-xs tracking-widest text-faint uppercase font-body mb-2">
         The work
       </p>

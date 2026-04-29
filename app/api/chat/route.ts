@@ -6,12 +6,17 @@ import { askClaude } from "@/lib/claude";
 import type { ChatMessage } from "@/lib/claude";
 
 export async function POST(req: NextRequest) {
-  // Layer 0 — rate limit by IP
+  // Layer 0 — rate limit by IP (fail open if Redis is unavailable)
   const ip =
     req.headers.get("x-forwarded-for")?.split(",")[0].trim() ?? "anonymous";
-  const { success } = await ratelimit.limit(ip);
-  if (!success) {
-    return NextResponse.json({ error: "rate_limit" }, { status: 429 });
+  try {
+    const { success } = await ratelimit.limit(ip);
+    if (!success) {
+      return NextResponse.json({ error: "rate_limit" }, { status: 429 });
+    }
+  } catch {
+    // Redis unavailable — allow request through, log for observability
+    console.error("[ratelimit] Redis unavailable, skipping rate limit");
   }
 
   // Parse body

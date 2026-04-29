@@ -10,10 +10,10 @@ export default function ContactSection({ content }: Props) {
       <p className="text-xs tracking-widest text-terra uppercase font-body mb-4">
         {content.eyebrow}
       </p>
-      <h2 className="font-display font-bold text-bg text-4xl leading-tight mb-4 max-w-lg">
+      <h2 className="font-display font-bold text-bg text-3xl leading-tight mb-4 max-w-lg">
         {content.headline}
       </h2>
-      <p className="text-sm text-[#a0b0c0] font-body mb-8 leading-relaxed max-w-md">
+      <p className="text-sm text-on-dark font-body mb-8 leading-relaxed max-w-md">
         {content.subtext}
       </p>
 
@@ -28,19 +28,19 @@ export default function ContactSection({ content }: Props) {
           href={content.linkedin}
           target="_blank"
           rel="noopener noreferrer"
-          className="border border-[#a0b0c033] text-[#a0b0c0] px-5 py-3 rounded-md text-xs font-body hover:border-[#a0b0c066] transition-colors"
+          className="border border-white/15 text-on-dark px-5 py-3 rounded-md text-xs font-body hover:border-white/30 transition-colors"
         >
           LinkedIn
         </a>
         <a
           href={`mailto:${content.email}`}
-          className="border border-[#a0b0c033] text-[#a0b0c0] px-5 py-3 rounded-md text-xs font-body hover:border-[#a0b0c066] transition-colors"
+          className="border border-white/15 text-on-dark px-5 py-3 rounded-md text-xs font-body hover:border-white/30 transition-colors"
         >
           {content.email}
         </a>
       </div>
 
-      <p className="text-xs text-[#4a6070] font-body mt-6 leading-relaxed">
+      <p className="text-xs text-on-dark-faint font-body mt-6 leading-relaxed">
         {content.location}
       </p>
     </section>
