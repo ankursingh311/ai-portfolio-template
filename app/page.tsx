@@ -2,12 +2,14 @@ import SiteNav from "@/components/SiteNav";
 import HeroSection from "@/components/HeroSection";
 import TransformationLedger from "@/components/TransformationLedger";
 import ExpertiseMatrix from "@/components/ExpertiseMatrix";
+import Recommendations from "@/components/Recommendations";
 import ContactSection from "@/components/ContactSection";
 import StickyChat from "@/components/StickyChat";
 
 import heroData from "@/content/hero.json";
 import ledgerData from "@/content/ledger.json";
 import expertiseData from "@/content/expertise.json";
+import recommendationsData from "@/content/recommendations.json";
 import contactData from "@/content/contact.json";
 
 import type {
@@ -27,6 +29,7 @@ export default function Home() {
       />
       <TransformationLedger entries={ledgerData as LedgerEntry[]} />
       <ExpertiseMatrix content={expertiseData as ExpertiseContent} />
+      <Recommendations entries={recommendationsData} />
       <ContactSection content={contactData as ContactContent} />
       <StickyChat />
     </main>
