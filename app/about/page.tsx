@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SiteNav from "@/components/SiteNav";
+import contactData from "@/content/contact.json";
 
 export const metadata: Metadata = {
   title: "About — Ankur Singh",
@@ -8,6 +9,7 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const linkedinUrl = contactData.linkedin;
   return (
     <main className="bg-bg min-h-screen">
       <SiteNav />
@@ -58,7 +60,7 @@ export default function AboutPage() {
             ← Back home
           </a>
           <a
-            href="https://linkedin.com/in/ankur-singh-iim-iit"
+            href={linkedinUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs text-muted font-body hover:text-text transition-colors"
