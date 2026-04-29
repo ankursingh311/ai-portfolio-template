@@ -65,7 +65,7 @@ export default function ChatInterface({ linkedinUrl }: Props) {
               </div>
               <div className="bg-bg-deep rounded-lg rounded-tl-none px-3 py-2 max-w-xs">
                 <p className="text-xs text-text font-body leading-relaxed">
-                  Hey — I&apos;m Ankur. Ask me anything about my work, how I
+                  Hey I&apos;m Ankur. Ask me anything about my work, how I
                   think, or what I&apos;m building next.
                 </p>
               </div>
