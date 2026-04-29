@@ -2,16 +2,23 @@
   {
     "org": "Lemon Tree Hotels",
     "period": "2025–present",
-    "metric": "10+",
-    "impact": "Revenue dashboards replacing manual reports",
-    "detail": "PACE, ROB, and sales productivity — each dashboard killed a recurring manual ritual. Revenue leadership now runs on live intelligence, not one-off pulls."
+    "metric": "30–40%",
+    "impact": "Faster leadership decision-support",
+    "detail": "5 executive dashboards across sales, ROB, PACE, and productivity — each one killed a recurring manual ritual. Revenue leadership now runs on live intelligence, not one-off pulls."
+  },
+  {
+    "org": "Lemon Tree Hotels",
+    "period": "2025–present",
+    "metric": "200+",
+    "impact": "Users on live sales reporting",
+    "detail": "Migrated sales reporting to a new analytics platform. Redesigned core business views, validated reporting logic, eliminated manual Excel refresh cycles across the portfolio."
   },
   {
     "org": "Lemon Tree Hotels",
     "period": "2025–present",
     "metric": "100+",
-    "impact": "Hotels in AOP exercise",
-    "detail": "Co-led the FY2026–27 annual operating plan. Data migration, source-segment validation, GL code alignment. Planning timelines stayed on track."
+    "impact": "Hotels in AOP planning cycle",
+    "detail": "Co-led the FY2026–27 annual operating plan. Data logic, finance alignment, source-segment validation. All planning files delivered on schedule."
   },
   {
     "org": "Accordion",
@@ -25,7 +32,7 @@
     "period": "2024–2025",
     "metric": "60hrs",
     "impact": "Saved per month",
-    "detail": "Power BI dashboard with cross-functional teams. Automated what used to be a manual monthly ritual. The team spent that time on analysis instead."
+    "detail": "Power BI dashboard with cross-functional teams. Automated a manual monthly ritual. The team spent that time on analysis instead."
   },
   {
     "org": "Accordion",
