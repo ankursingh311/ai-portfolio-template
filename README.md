@@ -4,7 +4,7 @@ A personal portfolio where the primary experience is **talking to an AI version 
 
 Built with Next.js 16, Tailwind CSS 4, and Claude API. Deployed to Vercel in ~15 minutes.
 
-**[Live demo →](https://ankursingh.in)** — the original site this template was built from.
+**[Live demo →](https://akursingh-nine.vercel.app)** — the original site this template was built from.
 
 ---
 
