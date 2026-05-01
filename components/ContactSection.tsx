@@ -38,6 +38,13 @@ export default function ContactSection({ content }: Props) {
         >
           {content.email}
         </a>
+        <a
+          href="/ankur-singh-resume.pdf"
+          download
+          className="border border-white/15 text-on-dark px-5 py-3 rounded-md text-xs font-body hover:border-white/30 transition-colors"
+        >
+          ↓ Download CV
+        </a>
       </div>
 
       <p className="text-xs text-on-dark-faint font-body mt-6 leading-relaxed">

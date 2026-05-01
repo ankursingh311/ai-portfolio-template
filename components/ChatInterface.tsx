@@ -165,7 +165,7 @@ export default function ChatInterface({ linkedinUrl }: Props) {
               disabled={status === "thinking"}
               placeholder="Ask anything about Ankur's work..."
               maxLength={500}
-              className="flex-1 border border-grid rounded-lg px-3 py-2 text-xs text-text font-body bg-bg placeholder:text-faint focus:outline-none focus:border-navy disabled:opacity-50"
+              className="flex-1 border border-grid rounded-lg px-3 py-2 text-base sm:text-xs text-text font-body bg-bg placeholder:text-faint focus:outline-none focus:border-navy disabled:opacity-50"
             />
             <button
               type="submit"

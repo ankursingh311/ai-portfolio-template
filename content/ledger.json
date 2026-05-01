@@ -1,65 +1,44 @@
 [
   {
-    "org": "Lemon Tree Hotels",
-    "period": "2025–present",
-    "metric": "30–40%",
-    "impact": "Faster leadership decision-support",
-    "detail": "5 executive dashboards across sales, ROB, PACE, and productivity — each one killed a recurring manual ritual. Revenue leadership now runs on live intelligence, not one-off pulls."
+    "org": "Company A",
+    "period": "2024–present",
+    "metric": "40%",
+    "impact": "Your outcome in one phrase",
+    "detail": "What you did and why it mattered. Be specific — vague claims don't land. Include the before state, what you changed, and the measurable result."
   },
   {
-    "org": "Lemon Tree Hotels",
-    "period": "2025–present",
+    "org": "Company A",
+    "period": "2024–present",
     "metric": "200+",
-    "impact": "Users on live sales reporting",
-    "detail": "Migrated sales reporting to a new analytics platform. Redesigned core business views, validated reporting logic, eliminated manual Excel refresh cycles across the portfolio."
+    "impact": "Another outcome",
+    "detail": "Another initiative from the same org, or a different angle of the same project. Show range."
   },
   {
-    "org": "Lemon Tree Hotels",
-    "period": "2025–present",
-    "metric": "100+",
-    "impact": "Hotels in AOP planning cycle",
-    "detail": "Co-led the FY2026–27 annual operating plan. Data logic, finance alignment, source-segment validation. All planning files delivered on schedule."
+    "org": "Company B",
+    "period": "2023–2024",
+    "metric": "$2M+",
+    "impact": "Revenue or cost impact",
+    "detail": "Financial impact tends to land hardest. If you have a number, lead with it. Context goes here."
   },
   {
-    "org": "Accordion",
-    "period": "2024–2025",
-    "metric": "$5M+",
-    "impact": "SKU profitability unlocked",
-    "detail": "Cost allocation framework for a contract manufacturer. For the first time, leadership could see which SKUs actually made money."
-  },
-  {
-    "org": "Accordion",
-    "period": "2024–2025",
+    "org": "Company B",
+    "period": "2023–2024",
     "metric": "60hrs",
     "impact": "Saved per month",
-    "detail": "Power BI dashboard with cross-functional teams. Automated a manual monthly ritual. The team spent that time on analysis instead."
+    "detail": "Time saved = automation or process improvement. Translate hours saved into what the team did with that time instead."
   },
   {
-    "org": "Accordion",
-    "period": "2024–2025",
-    "metric": "25%",
-    "impact": "Faster month-end close",
-    "detail": "Streamlined financial reporting for an FMCG client. Less time closing the books meant more time understanding what the numbers said."
-  },
-  {
-    "org": "Aarti Industries",
-    "period": "2019–2021",
+    "org": "Company C",
+    "period": "2021–2023",
     "metric": "60%",
-    "impact": "Manual effort eliminated",
-    "detail": "Google Apps Script automation on the shop floor. Wrote the code, trained the team, watched the repetitive work disappear. 1,000+ users affected."
+    "impact": "Efficiency gained",
+    "detail": "Earlier career entry. Shows trajectory. Pick your strongest metric from this role."
   },
   {
-    "org": "Aarti Industries",
-    "period": "2019–2021",
+    "org": "Company C",
+    "period": "2021–2023",
     "metric": "27%",
-    "impact": "Faster permit approvals",
-    "detail": "Led an 8-member team to redesign the plant permit system. Cut approval time, removed the bottleneck, and made safety compliance faster than the old paper process."
-  },
-  {
-    "org": "Arohi Elevators",
-    "period": "2021–2022",
-    "metric": "20%",
-    "impact": "Less breakdown & handover time",
-    "detail": "Formalised 20+ installation and maintenance SOPs across 4 capital projects. When the documentation is right, the execution follows."
+    "impact": "Process improvement",
+    "detail": "Process change entries work well here. Percentage improvements are relatable across industries."
   }
 ]

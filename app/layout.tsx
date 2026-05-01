@@ -1,6 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Manrope } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import heroData from "@/content/hero.json";
+import contactData from "@/content/contact.json";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -15,15 +17,38 @@ const manrope = Manrope({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  viewportFit: "cover",
+};
+
+// TODO: replace with your actual domain once deployed
+const BASE_URL = "https://yourname.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Ankur Singh — Strategy & AI Transformation",
-  description:
-    "IIT Gandhinagar · IIM Bangalore. Not a data scientist. Not a strategy consultant. The person who makes both work — with AI.",
+  metadataBase: new URL(BASE_URL),
+  title: `${heroData.name} — ${heroData.title}`,
+  description: heroData.headline,
   openGraph: {
-    title: "Ankur Singh — Strategy & AI Transformation",
-    description: "Where strategy meets AI execution.",
+    title: `${heroData.name} — ${heroData.title}`,
+    description: heroData.headline,
     type: "website",
+    locale: "en_US",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: `${heroData.name} — ${heroData.title}`,
+    description: heroData.headline,
+  },
+};
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: heroData.name,
+  jobTitle: heroData.title,
+  description: heroData.headline,
+  url: BASE_URL,
+  sameAs: [contactData.linkedin],
 };
 
 export default function RootLayout({
@@ -33,6 +58,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${playfair.variable} ${manrope.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema) }}
+        />
+      </head>
       <body>
         {children}
         <Analytics />

@@ -28,7 +28,13 @@ export async function askClaude(
   const response = await anthropic.messages.create({
     model,
     max_tokens: 800,
-    system: systemPrompt,
+    system: [
+      {
+        type: "text",
+        text: systemPrompt,
+        cache_control: { type: "ephemeral" },
+      },
+    ],
     messages: [
       ...history.map((m) => ({ role: m.role, content: m.content })),
       { role: "user" as const, content: message },

@@ -5,6 +5,7 @@ import ExpertiseMatrix from "@/components/ExpertiseMatrix";
 import Recommendations from "@/components/Recommendations";
 import ContactSection from "@/components/ContactSection";
 import StickyChat from "@/components/StickyChat";
+import FadeIn from "@/components/FadeIn";
 
 import heroData from "@/content/hero.json";
 import ledgerData from "@/content/ledger.json";
@@ -27,10 +28,18 @@ export default function Home() {
         content={heroData as HeroContent}
         linkedinUrl={contactData.linkedin}
       />
-      <TransformationLedger entries={ledgerData as LedgerEntry[]} />
-      <ExpertiseMatrix content={expertiseData as ExpertiseContent} />
-      <Recommendations entries={recommendationsData} />
-      <ContactSection content={contactData as ContactContent} />
+      <FadeIn>
+        <TransformationLedger entries={ledgerData as LedgerEntry[]} />
+      </FadeIn>
+      <FadeIn delay={50}>
+        <ExpertiseMatrix content={expertiseData as ExpertiseContent} />
+      </FadeIn>
+      <FadeIn delay={50}>
+        <Recommendations entries={recommendationsData} />
+      </FadeIn>
+      <FadeIn delay={50}>
+        <ContactSection content={contactData as ContactContent} />
+      </FadeIn>
       <StickyChat />
     </main>
   );

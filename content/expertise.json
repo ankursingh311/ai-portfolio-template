@@ -3,43 +3,43 @@
   "sectionHeading": "The toolkit",
   "columns": [
     {
-      "title": "Strategy",
+      "title": "Domain 1",
       "skills": [
-        "Operating model design",
-        "Revenue performance management",
-        "C-suite alignment",
-        "Annual operating plan (AOP)",
-        "Revenue intelligence"
+        "Core skill 1",
+        "Core skill 2",
+        "Core skill 3",
+        "Core skill 4",
+        "Core skill 5"
       ]
     },
     {
-      "title": "Operations",
+      "title": "Domain 2",
       "skills": [
-        "Business process redesign",
-        "Cross-functional execution",
-        "Program management",
-        "SOP & governance design",
-        "Operational automation"
+        "Core skill 1",
+        "Core skill 2",
+        "Core skill 3",
+        "Core skill 4",
+        "Core skill 5"
       ]
     },
     {
-      "title": "Analytics",
+      "title": "Domain 3",
       "skills": [
-        "BI strategy & deployment",
-        "KPI architecture",
-        "Root cause & variance analysis",
-        "Tableau · Power BI",
-        "Data integrity validation"
+        "Core skill 1",
+        "Core skill 2",
+        "Core skill 3",
+        "Tool or platform",
+        "Tool or platform"
       ]
     },
     {
-      "title": "Systems & AI",
+      "title": "Domain 4",
       "skills": [
-        "AI workflow transformation",
-        "Salesforce & Agentforce",
-        "AI + BI integration",
-        "Prompt engineering",
-        "Google Apps Script"
+        "Core skill 1",
+        "Core skill 2",
+        "Core skill 3",
+        "Core skill 4",
+        "Core skill 5"
       ]
     }
   ]

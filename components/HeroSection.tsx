@@ -14,7 +14,7 @@ export default function HeroSection({ content, linkedinUrl }: Props) {
         <p className="text-xs tracking-widest text-faint uppercase mb-4 font-body">
           {content.eyebrow}
         </p>
-        <h1 className="font-display font-bold text-navy text-5xl leading-tight tracking-tight mb-2">
+        <h1 className="font-display font-bold text-navy text-4xl sm:text-5xl leading-tight tracking-tight mb-2">
           {content.name}
         </h1>
         <p className="text-xs tracking-widest text-terra uppercase font-semibold font-body mb-5">
@@ -26,7 +26,7 @@ export default function HeroSection({ content, linkedinUrl }: Props) {
         <p className="text-base text-muted italic font-display mb-8">
           {content.personalityLine}
         </p>
-        <div className="flex gap-4 items-center">
+        <div className="flex flex-wrap gap-4 items-center">
           <a
             href="#chat"
             className="bg-navy text-bg px-5 py-3 rounded-md text-xs font-bold font-body tracking-wide hover:bg-navy-light transition-colors"
@@ -38,6 +38,13 @@ export default function HeroSection({ content, linkedinUrl }: Props) {
             className="text-xs text-faint font-body hover:text-muted transition-colors"
           >
             ↓ {content.ctaSecondary}
+          </a>
+          <a
+            href="/ankur-singh-resume.pdf"
+            download
+            className="text-xs text-faint font-body hover:text-muted transition-colors"
+          >
+            ↓ Download CV
           </a>
         </div>
       </div>
@@ -54,7 +61,7 @@ export default function HeroSection({ content, linkedinUrl }: Props) {
         <h2 className="font-display font-bold text-navy text-3xl mb-3">
           Talk to Ankur
         </h2>
-        <p className="text-sm text-muted font-body mb-6 leading-relaxed max-w-md">
+        <p className="text-sm text-muted font-body mb-6 leading-relaxed">
           Ask anything about my work, how I think, or what I&apos;m building
           next. The AI responds from my actual career history — no invented
           answers.
